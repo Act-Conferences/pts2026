@@ -7,58 +7,45 @@
 
 <div class="col-xs-12" style="margin-bottom: 1em;"><strong>Diamond:</strong></div>
 
-<!--
 <div class="col-xs-12 text-center">
-    <a href="https://www.booking.com/">
-        <img src="[% make_uri_info('pix/logo_bookingcom_225.png') %]" border="0" alt="Booking.com" class="img-responsive" style="margin-bottom: 3em;">
+    <a href="https://perlfoundation.org/">
+        <img src="[% make_uri_info('pix/logo_tprf.png') %]" border="0" alt="The Perl and Raku Foundation" width="250" class="img-responsive" style="margin-bottom: 1em;">
     </a>
 </div>
--->
 
 <!-- Gold -->
 <div class="col-xs-12" style="margin-bottom: 1em;"><strong>Gold:</strong></div>
 
-<!-- 
     <div class="col-xs-12 text-center">
-        <a href="https://www.webpros.com/">
-            <img src="[% make_uri_info('pix/logo-webpros-dark.svg') %]" border="0" alt="Webpros" class="img-responsive" style="margin-bottom: 3em;">
+        <a href="https://www.grantstreet.com/">
+            <img src="[% make_uri_info('pix/GrantStreetGroup.png') %]" border="0" alt="Grant Street Group" width="250" class="img-responsive" style="margin-bottom: 1em;">
         </a>
     </div>
 
     <div class="col-xs-10 col-xs-offset-1 text-center;">
-        <a href="https://perl.careers/jobs/">
-            <img src="[% make_uri_info('images/logos/scaled/perlcareers.png') %]" border="0" alt="Perl Jobs by Perl Careers" class="img-responsive" style="margin-bottom: 2em;">
+        <a href="https://vienna.pm.org/">
+            <span style="margin-bottom: 1em;"><img src="[% make_uri_info('pix/header_camel.png') %]" border="0" alt="The Vienna.pm Perl Monger Group" width="50" style="margin-bottom: 1em;">
+            <b>Vienna.pm</b></span>
         </a>
     </div>
 
     <div class="col-xs-10 col-xs-offset-1 text-center;">
-        <a href="https://www.cv-library.co.uk/">
-            <img src="[% make_uri_info('images/logos/scaled/cvl.png') %]" border="0" alt="CV Library" class="img-responsive" style="margin-bottom: 2em;">
+        <a href="https://geizhals.at/">
+            <img src="[% make_uri_info('pix/geizhals_logo_official.svg') %]" border="0" alt="Geizhals Vergleichpreis" width="250" class="img-responsive" style="margin-bottom: 2em;">
         </a>
     </div>
--->
-
-<!--
-    <div class="col-xs-10 col-xs-offset-1 text-center;">
-        <a href="https://www.adzuna.co.uk/">
-            <img src="[% make_uri_info('images/logos/scaled/adzuna.png') %]" border="0" alt="Adzuna" class="img-responsive" style="margin-bottom: 2em;">
-        </a>
-    </div>
--->
 
 <!-- Silver -->
 <div class="col-xs-12" style="margin-bottom: 1em;">
     <strong>Silver:</strong>
 
-
-<!--
-
     <div class="col-xs-10 col-xs-offset-1 text-center;">
-        <a href="https://www.cosmoshop.de/">
-            <img class="icon" src="[% make_uri('pix/logo_cosmoshop.png') %]" width="250" alt="cosmoshop" title="cosmoshop">
-        </a>
+        <span style="margin-bottom: 2em;">
+        <b>Trans-Formed Media, LLC</b>
+        </span>
     </div>
 
+<!--
     <div class="col-xs-10 col-xs-offset-1 text-center;">
     <a href="https://www.fastmail.com/">
         <img class="icon" src="[% make_uri('pix/logo-fastmail.png') %]" width="250" alt="Fastmail" title="Fastmail">
