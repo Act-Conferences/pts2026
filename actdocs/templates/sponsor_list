@@ -40,9 +40,7 @@
     <strong>Silver:</strong>
 
     <div class="col-xs-10 col-xs-offset-1 text-center;">
-        <span style="margin-bottom: 2em;">
-        <b>Trans-Formed Media, LLC</b>
-        </span>
+         <img src="[% make_uri_info('pix/logo_transformedmedia.png') %]" border="0" alt="Trans-formed Media" width="100" class="img-responsive" style="margin-bottom: 2em;">
     </div>
 
 <!--
