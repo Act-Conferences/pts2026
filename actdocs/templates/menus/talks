@@ -6,9 +6,7 @@
     <li><a href="[% make_uri('wiki') %]">Main page</a></li>
     <li><a href="[% make_uri('wiki?node=Attendees') %]">Attendees</a></li>
     <li><a href="[% make_uri('wiki?node=Projects') %]">Projects</a></li>
-    <li><a href="[% make_uri('wiki?node=Catering') %]">Catering</a></li>
     <li><a href="[% make_uri('wiki?node=Results') %]">Results</a></li>
     <li><a href="[% make_uri('wiki?node=Blogs') %]">Blogs</a></li>
-    <li><a href="[% make_uri('wiki?node=Photos') %]">Photos</a></li>
   </ul>
 </li>
