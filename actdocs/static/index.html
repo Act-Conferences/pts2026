@@ -1,5 +1,121 @@
 [% WRAPPER ui title = global.conference.name %]
 
+
+<h2>PTS 2026 Key Results & Deliverables</h2>
+
+These achievments have been posted on
+<a href="https://www.perl.com/article/perl-toolchain-summit-2026-key-results/"
+   title="The Perl Toolchain Summit 2026: Security, Testing, Porting and Community Collaboration"
+   alt="Achievements PTS2026">perl.com</a>
+
+<h3 id="security">Security</h3>
+<p>CPANSec took it to another level, getting faster at discovering vulnerabilities (in modules, infrastructure and core) and improving its process:</p>
+<ul>
+<li>Vulnerability triage;</li>
+<li>CNA improvements;</li>
+<li>Meta V3 is moving forward;</li>
+<li>Deprecated Module::Signature, considered &ldquo;security theater&rdquo;.</li>
+</ul>
+<h3 id="testing-and-quality-assurance">Testing and Quality Assurance</h3>
+<p>Testing and QA work included:</p>
+<ul>
+<li>On the road to <a href="https://metacpan.org/pod/Devel::Cover">Devel::Cover</a> <strong>2.00</strong>;</li>
+<li>Several improvements made to <a href="https://metacpan.org/pod/Test::Smoke">Test::Smoke</a>, with 3 releases: removal of dual PerlIO/stdio testing, making install more robust (and portable);</li>
+<li>Test::Smoke <a href="https://perl5.test-smoke.org/">backend</a> full rewrite to ensure sustainability with new features and better performance;</li>
+<li>The <a href="https://metacpan.org/pod/Test2">Test2</a> family of modules, including the new web user interface, was greatly improved, with many issues fixed and new features implemented;</li>
+<li>Syncing from <a href="https://backpan.perl.org">backpan.perl.org</a> to fill in CPAN Testers&rsquo; <a href="https://backpan.cpantesters.org/">backpan</a>;</li>
+<li>New MCP server <a href="https://mcp.cpantesters.org">mcp.cpantesters.org</a> to browse CPAN Testers reports from your preferred LLM CLI.</li>
+</ul>
+<h3 id="supply-chain-and-other-modules">Supply Chain and Other Modules</h3>
+<p>Many CPAN authors and maintainers worked on:</p>
+<ul>
+<li>Release of <a href="https://skaji.medium.com/cpm-v1-making-installs-stable-b2236b8eda44">cpm v1</a>;</li>
+<li>Fixes and hardening to <a href="https://metacpan.org/pod/YAML::XS">YAML::XS</a>, <a href="https://metacpan.org/pod/YAML::PP">YAML::PP</a> and <a href="https://github.com/yaml/libyaml">libyaml</a>;</li>
+<li><a href="https://metacpan.org/pod/PPI">PPI</a> saw several fixes and no fewer than 7 new releases;</li>
+<li><a href="https://metacpan.org/pod/Perl::Version::Bumper">Perl::Version::Bumper</a> updated to take advantage of the first of those 7 PPI releases;</li>
+<li>Continuous effort on <a href="https://metacpan.org/">MetaCPAN</a> infrastructure: migration to Hetzner, improving secret management and monitoring;</li>
+<li>Proof of Concept of integrating <a href="https://github.github.com/gfm/">GitHub Flavored Markdown</a> to <a href="https://metacpan.org/">MetaCPAN</a>;</li>
+<li>Huge progress on Automation Policy Metadata.</li>
+</ul>
+<h3 id="pause">PAUSE</h3>
+<p>Very hacktive PAUSE table:</p>
+<ul>
+<li>Implemented new <a href="https://github.com/andk/pause/pull/576">API token access</a>;</li>
+<li>Security fixes (&ldquo;rand rand rand rand&rdquo;, &ldquo;ABRA time&rdquo; and &ldquo;META symlinks&rdquo;);</li>
+<li>New dockerized PAUSE;</li>
+<li>Various pentesting (e.g. reviewing YAML parser);</li>
+<li>Ongoing work on OAuth/OIDC;</li>
+<li>Several Pull Requests merged.</li>
+</ul>
+<h3 id="funding">Funding</h3>
+<p>Recent years brought the topic of funding to the front of the stage. In particular to ensure the sustainability of Perl maintenance funds, accelerate some initiatives (e.g. CPAN Security efforts) and finance community events (like this one!).</p>
+<p>A lot of things happened on this front during the Perl Toolchain Summit:</p>
+<ul>
+<li>A strong effort towards funding security work;</li>
+<li>General discussions about funding of the community.</li>
+</ul>
+<h3 id="group-discussions">Group discussions</h3>
+<p>The Perl Toolchain Summit also provides a lot of opportunity for interaction.
+Whether they&rsquo;re corridor discussions, small talk to get to know each other and build trust, discussions around a drink or group discussions (that led in the past to &ldquo;consensus&rdquo; or &ldquo;amendment&rdquo; papers), it all ends up strengthening the Perl toolchain.</p>
+<p>During this PTS in particular, there were a lot of group discussions, probably helped by having a dedicated meeting room.</p>
+<h4 id="on-the-topic-of-toolchain">On the topic of Toolchain</h4>
+<ul>
+<li>META V3</li>
+<li>CPAN clients</li>
+</ul>
+<h4 id="on-the-topic-of-ai">On the topic of AI</h4>
+<ul>
+<li>AI Policies Materials</li>
+<li>AI Policies Governance</li>
+<li>Share your AI tooling and tips!</li>
+</ul>
+<h4 id="on-the-topic-of-security">On the topic of Security</h4>
+<ul>
+<li>CRA presentation and Q&amp;A</li>
+</ul>
+<h4 id="on-the-topic-of-perl-core">On the topic of Perl core</h4>
+<ul>
+<li>Perl Ongoing and future features</li>
+<li>Perl core class/roles implementation</li>
+<li>Configure</li>
+<li>UTF-8</li>
+<li>Plan for Perl Platforms</li>
+</ul>
+<h3 id="podcasts">Podcasts</h3>
+<p>As in 2025, PTS 2026 was an opportunity to record new episodes for <a href="https://underbar.cpan.io/">The Underbar</a>.
+There were over five hours of conversations recorded, about:</p>
+<ul>
+<li>Configure</li>
+<li>Vienna.pm</li>
+<li>PPI</li>
+<li>the Perl Steering Council</li>
+<li>Karl Williamson</li>
+</ul>
+
+<h2>Blog posts</h2>
+
+<p>
+If you're interested in the specifics, you can also have a look at
+the blog posts published by some of the participants to the Perl
+Toolchain Summit:
+</p>
+
+<ul>
+<li>Shoichi Kaji <a href="https://skaji.medium.com/cpm-v1-making-installs-stable-b2236b8eda44">cpm v1: making installs stable</a></li>
+<li>Doug Bell <a href="https://blogs.perl.org/users/preaction/2026/04/reading-cpan-testers-reports-using-ai-agents.html">Reading CPAN Testers Reports Using AI Agents</a></li>
+<li>Thomas Klausner <a href="https://domm.plix.at/perl/2026_04_perl_toolchain_summit.html">Perl Toolchain Summit in Vienna</a></li>
+<li>Thibault Duponchelle <a href="https://thibaultduponchelle.github.io/My-Perl-Toolchain-Summit-2026">My Perl Toolchain Summit 2026</a></li>
+<li>Timothy Legge <a href="https://blogs.perl.org/users/timothy_legge/2026/05/perl-toolchain-summit-2026---vienna.html">Perl Toolchain Summit 2026 - Vienna</a></li>
+<li>Shawn Sorichetti <a href="https://ssoriche.com/posts/2026/05/pts-2026-what-actually-happened/">PTS 2026: What Actually Happened</a></li>
+<li>Robert Rothenberg <a href="https://blogs.perl.org/users/robert_rothenberg/2026/05/ideas-for-the-cpan-meta-v3-specification.html">Ideas for the CPAN Meta v3 Specification</a></li>
+<li>Timothy Legge <a href="https://blogs.perl.org/users/timothy_legge/2026/05/signing-cpan-releases-with-sigstore.html">Signing CPAN Releases with SigStore</a></li>
+<li>Leo Lapworth <a href="https://blogs.perl.org/users/leo_lapworth/2026/05/pts-2026.html">PTS 2026</a></li>
+<li>Paul Johnson <a href="https://blogs.perl.org/users/paul_johnson/2026/05/the-perl-toolchain-summit-2026.html">The Perl Toolchain Summit 2026</a></li>
+</ul>
+
+<hr />
+
+
 <h2>What is the Perl Toolchain Summit?</h2>
 
 <p>Up to 2016, this event was known as Perl QA Hackathon - PQAH.</p>
@@ -36,269 +152,6 @@
 to Sunday <b>April 26<sup>th</sup> 2026</b>, all the day long, in the town of Vienna, Austria.
 </p>
 
-<h2>The results</h2>
-
-<p><a href="/pts2026/user/268">H.Merijn Brand (&lrm;Tux&lrm;)</a></p>
-<ul>
-<li>Analysis of the Test::Smoke database</li>
-<li>Attempt to convert that to Test2::Builder architecture (proved to be of no use)</li>
-<li>Extract binary data out of that 150 Gb+ database into local files</li>
-<li>replace bytea entries with locations of those files (new size is just over 300 Mb + 77 Gb of files on disk</li>
-<li>Discuss and help with new maint setup for webUI and API for Test::Smoke results. Thanks <a href="/pts2026/user/1699">Todd Rinaldo (&lrm;toddr&lrm;)</a> for picking this up!!!!</li>
-<li>Talk about Configure and its bus factor. Incl a podcast recording with <a href="/pts2026/user/1">Philippe Bruhat (&lrm;BooK&lrm;)</a>)</li>
-<li>Evaluate new Devel::Cover and help digging into failures</li>
-<li>Digging into Test2::Harness fallout due to installation of an old(er) version-conflict</li>
-<li>Fix stack corruption issue in Text::CSV_XS (Thanks <a href="/pts2026/user/5015">Leon Timmermans (&lrm;leont&lrm;)</a>!)</li>
-<li>Many many useful discussions</li>
-</ul>
-<p><a href="/pts2026/user/11763">Shoichi Kaji (&lrm;skaji&lrm;)</a></p>
-<ul>
-<li>Released cpm v1: <a href="https://metacpan.org/pod/App::cpm">https://metacpan.org/pod/App::cpm</a></li>
-</ul>
-<p><a href="/pts2026/user/461">Tina Müller (&lrm;tinita&lrm;)</a></p>
-<ul>
-<li><a href="https://metacpan.org/release/TINITA/YAML-LibYAML-v0.906.0/changes">YAML::XS</a><ul>
-<li>Fix memory leak for trailing UTF8 octets</li>
-<li>Fix detecting floats in YAML 1.2 Core Schema </li>
-<li>v0.906.1-TRIAL: Turn off cyclic references by default (potential memory leak)</li>
-</ul>
-</li>
-<li><a href="https://metacpan.org/dist/YAML-PP/changes">YAML::PP</a><ul>
-<li>Security: Limit default allowed maximum nesting level.</li>
-</ul>
-</li>
-<li><a href="https://github.com/yaml/libyaml/releases/tag/0.2.6-rc.1">libyaml</a><ul>
-<li>Fix Denial of Service vulnerability: Limit depth of nesting by default</li>
-<li>Handle closing flow sequence after explicit key</li>
-</ul>
-</li>
-<li>Sat together with <a href="/pts2026/user/12592">Thibault Duponchelle (&lrm;tibtib&lrm;)</a> and talked about attack vectors in PAUSE regarding YAML</li>
-</ul>
-<p><a href="/pts2026/user/8509">atoomic</a></p>
-<ul>
-<li>Quick Summary for PSC26: Open 42 issues ; Worked on 141 PRs ; 86 Merged</li>
-<li>Mainly focused on Test-More/Test2-Harness refactor with 27 PRs merged</li>
-<li>but also updated, modernized and released v2 for perl-actions/install-with-cpm, perl-actions/install-with-cpanminus <ul>
-<li>update node to v24</li>
-<li>several security updates</li>
-<li>upstream stack up to date</li>
-<li>added a few extra features: retry, cache, mirror... </li>
-</ul>
-</li>
-<li>TimeDate -Worked on 14 issues</li>
-<li>Clone: merged 4 PRs ; release pending </li>
-<li>helped modernized Perl-Toolchain-Gang/Test-Smoke </li>
-<li>exchanged on feature requests for metacpan/metacpan-grep-front-end</li>
-<li>workshop: collaborate with Robert on automation Policy</li>
-<li>talk: AI discussion, attended Perl Core features talk from Leonerd</li>
-</ul>
-<p><a href="/pts2026/user/116">Thomas Klausner (&lrm;domm&lrm;)</a></p>
-<ul>
-<li>Added a local-dev setup using docker-compose to PAUSE: <a href="https://github.com/andk/pause/pull/588">https://github.com/andk/pause/pull/588</a>, already merged!</li>
-<li>Might have been shanghaied to look into <a href="https://github.com/andk/pause/issues/258">making PAUSE an OAuth2 identity provider</a></li>
-<li>Attended a interview podcast recording about Vienna.pm with <a href="/pts2026/user/1">Philippe Bruhat (&lrm;BooK&lrm;)</a> </li>
-<li>Running errands, un/locking doors, organize food etc</li>
-</ul>
-<p><a href="/pts2026/user/6354">Paul Evans (&lrm;LeoNerd&lrm;)</a></p>
-<ul>
-<li>Presented two talks outlining upcoming or potential future core perl ideas and designs</li>
-<li>Lots of discussions about class/role feature design</li>
-<li>Fixed a small bug in the `Socket` dual-life module</li>
-<li>Pointed <a href="/pts2026/user/8509">atoomic</a>+<a href="/pts2026/user/1699">Todd Rinaldo (&lrm;toddr&lrm;)</a> at the &quot;static cow&quot; ability of newer perls as a nicer way to solve a `B::C` issue</li>
-<li>Looked into `Devel::Cover` interactions with perl's `PL_perldb` variable with <a href="/pts2026/user/262">Paul Johnson (&lrm;pjcj&lrm;)</a></li>
-<li>Lent some words on the theme of the ever-looming &quot;AI tools&quot; discussions</li>
-<li>Held an in-person PSC meeting to triage the release-blocker queue and manage some outstanding issues</li>
-<li>Attended a interview podcast recording with the PSC with <a href="/pts2026/user/1">Philippe Bruhat (&lrm;BooK&lrm;)</a> </li>
-</ul>
-<p><a href="/pts2026/user/9033">Robert Rothenberg (&lrm;rrwo&lrm;)</a></p>
-<ul>
-<li>Worked with CPANSec on various projects<ul>
-<li>Vulnerability discovery<ul>
-<li>Released a fix for Text::Minify::XS (thanks to Karl Williamson for helpful advice on handling Unicode in XS)</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>CNA improving the vulnerability to fix and disclosure workflow<ul>
-<li>We want to reduce delays to releasing fixes and disclosing vulnerabilities, but we also want to communicate with authors in a way that does not put pressure on them.<ul>
-<li>CPANSec is a resource to assist authors with security issues.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>Working on a ideas with <a href="/pts2026/user/244">Salve J. Nilsen (&lrm;sjn&lrm;)</a> about where new kinds of metadata should go, so that authors can experiment with it over the next year.<ul>
-<li>Blog post(s) will be forthcoming</li>
-<li>A proposal for documenting how AI and automation fits into a project (with <a href="/pts2026/user/8509">atoomic</a>)</li>
-<li>Ideas in GitHub at https://github.com/CPAN-Security/cpan-metadata-v3</li>
-</ul>
-</li>
-<li>Joined the DBI core maintenance team</li>
-<li>Participated in various discussions<ul>
-<li>AI usage meeting was lively but productive.</li>
-<li><a href="/pts2026/user/6354">Paul Evans (&lrm;LeoNerd&lrm;)</a> talks about upcoming and potential improvements.</li>
-<li><a href="/pts2026/user/11124">Karl Williamson</a> on UTF-8</li>
-<li><a href="/pts2026/user/244">Salve J. Nilsen (&lrm;sjn&lrm;)</a>'s talks on CRA and steward organization</li>
-<li>META v3 and Community Health Documentation</li>
-</ul>
-</li>
-</ul>
-<p><a href="/pts2026/user/8304">Christian Walde (&lrm;Mithaldu&lrm;)</a></p>
-<ul>
-<li>PPI - several releases with:<ul>
-<li>two separate performance fixes for features/signature parsing in large files (thanks mauke)</li>
-<li>support for dotted bitwise operators (thanks BooK)</li>
-<li>fixes for code location indexing (thanks myrrhlin)</li>
-<li>many other small things</li>
-</ul>
-</li>
-<li>had toddr help me automatically generate a lot of PPI tests (and some fixes) for currently broken behaviours </li>
-<li>several conversations with Leonerd on the relationship between classes and roles and better replacements for roles, as well as what makes acceptable behaviours in po syntax; and advice on how to get feedback with little effort</li>
-</ul>
-<p><a href="/pts2026/user/2093">Andreas Koenig</a></p>
-<ul>
-<li>released CPAN.pm-2.39-TRIAL</li>
-<li>Security fixes on PAUSE<ul>
-<li>Ignore README or META.xxx in uploaded distributions when they are symlinks (Stig Palmquist)</li>
-<li>Fix Possible timing attack in ABRA lookup (Thibault Duponchelle)</li>
-<li>replace rand() with Crypt::URandom::urandom() (Thibault Duponchelle)</li>
-<li>discussed some more potential security issues with Stig Palmquist and Graham Knop</li>
-</ul>
-</li>
-<li>applied circa 15 pull requests to PAUSE together with Kenichi Ishigaki</li>
-<li>participated in discussions about deprecation of Module::Signature and shutdown of the email forwarding service for the CPAN</li>
-</ul>
-<p><a href="/pts2026/user/12612">Timothy Legge (&lrm;timlegge&lrm;)</a></p>
-<ul>
-<li>Various CPANSec discussions<ul>
-<li>CNA - How to reduce the required to issues CVEs</li>
-<li>CNA - Improve the disclosure workflow process</li>
-<li>CNA - Recognize the impact of security reports on maintainers</li>
-</ul>
-</li>
-<li>Worked with <a href="/pts2026/user/1699">Todd Rinaldo (&lrm;toddr&lrm;)</a> to release Crypt::OpenSSL:::RSA which restored PKCS1 v1.5 padding for signatures</li>
-<li>Participated in various discussions on:<ul>
-<li>CPAN Clients</li>
-<li>Perl Platform support</li>
-<li>AI and the Perl Community</li>
-<li>Karl Williamson on UTF-8</li>
-</ul>
-</li>
-<li><a href="/pts2026/user/268">H.Merijn Brand (&lrm;Tux&lrm;)</a> presented metaconfig and Configure to a small number of us<ul>
-<li>While not frequently changing <a href="/pts2026/user/268">H.Merijn Brand (&lrm;Tux&lrm;)</a> gave us a great understanding of its importance and how it works</li>
-<li>The hope is to improve the bus factor</li>
-</ul>
-</li>
-<li>Deprecated Module::Signature<ul>
-<li>Audrey approved its deprecation</li>
-<li>Module::Signature does not provide the expected security assurances</li>
-<li>It is time to retire it and look for a new solution</li>
-</ul>
-</li>
-</ul>
-<p><a href="/pts2026/user/2038">Lukas Mai (&lrm;mauke&lrm;)</a></p>
-<ul>
-<li>helped <a href="/pts2026/user/8304">Christian Walde (&lrm;Mithaldu&lrm;)</a> disentangle and release a PPI patch (performance improvements)</li>
-<li>opened a handful of pull requests in CPAN modules to eliminate string comparisons on $] (e.g. `if ($] lt &quot;5.010&quot;)`), which will break if $] exceeds 10.0 (e.g. if we were to &quot;drop the 5.&quot;)</li>
-<li>attended talks by <a href="/pts2026/user/6354">Paul Evans (&lrm;LeoNerd&lrm;)</a> (future features, language design), <a href="/pts2026/user/11124">Karl Williamson</a> (UTF-8)</li>
-<li>many, many discussions</li>
-</ul>
-<p><a href="/pts2026/user/5225">Doug Bell (&lrm;preaction&lrm;)</a></p>
-<ul>
-<li>Begun parsing report text to fill in data<ul>
-<li>Starting from Andreas's CPAN::Testers::ParseReport</li>
-<li>Now have a framework to parallelize jobs over the entire report set</li>
-</ul>
-</li>
-<li>Started to sync from backpan.perl.org to fill in CPAN Testers's backpan<ul>
-<li>Recovery from last winter's outage</li>
-</ul>
-</li>
-<li>Initial MCP server for AI agents at https://mcp.cpantesters.org</li>
-<li>Started importing parsed reports into a new Postgres schema<ul>
-<li>Goal is to be able to travel upstream and downstream to aggregate report data</li>
-</ul>
-</li>
-</ul>
-<p><a href="/pts2026/user/1">Philippe Bruhat (&lrm;BooK&lrm;)</a></p>
-<ul>
-<li>released <a href="https://metacpan.org/dist/Perl-Version-Bumper">Perl-Version-Bumper</a> 0.256, thanks to the newly added support for dotted bitwise operators in PPI</li>
-<li>discussed implementing a new utility method for PPI (akin to PPIx::Literal), and started implementing it</li>
-<li>attended several meetings: April Task Force, CPAN clients, AI discussion, Perl platforms, <a href="/pts2026/user/6354">Paul Evans (&lrm;LeoNerd&lrm;)</a>'s talks</li>
-<li>rebased the &quot;drop the 5&quot; branch for Perl (<a href="https://github.com/Perl/PPCs/blob/main/ppcs/ppc0025-perl-version.md">PPC 0025</a>)</li>
-<li>several PTS organiser discussions and tasks, including for 2027</li>
-<li>recorded over 5 hours of interviews for <a href="https://underbar.cpan.io/">The Underbar</a> podcast: Configure (<a href="/pts2026/user/268">H.Merijn Brand (&lrm;Tux&lrm;)</a>), Vienna.pm, PPI (<a href="/pts2026/user/8304">Christian Walde (&lrm;Mithaldu&lrm;)</a>), the PSC, <a href="/pts2026/user/11124">Karl Williamson</a>.</li>
-</ul>
-<p><a href="/pts2026/user/2800">Kenichi Ishigaki (&lrm;charsbar&lrm;)</a></p>
-<ul>
-<li>published accumulated local changes on CPANTS<ul>
-<li>bumped javascript libraries (notably, bootstrap from 3 to 5)</li>
-<li>restored old API endpoints</li>
-</ul>
-</li>
-<li>implemented a new API application for PAUSE</li>
-<li>made several pull requests to PAUSE</li>
-<li>shipped Parse::LocalDistribution to reflect changes for PAUSE</li>
-<li>asked the maintainer of Encode to cut a release</li>
-<li>joined a few discussions</li>
-</ul>
-<p><a href="/pts2026/user/12727">Thomas Baugh (&lrm;Andy&lrm;)</a></p>
-<ul>
-<li>Helped out exodist with the Test2::Harness refactors on the 2.0 branch.<ul>
-<li>Very near to completion</li>
-<li>I still need to finish polishing/testing preloads feature ;_;</li>
-</ul>
-</li>
-<li>Learned how to use koanbot from <a href="/pts2026/user/8509">atoomic</a></li>
-<li>For fun vibecoded a test runner script based on MCE and Log::Dispatch.<ul>
-<li>https://github.com/Troglodyne-Internet-Widgets/perl-app-prover</li>
-<li>Slightly faster than App::Prove when using concurrency (surprising for basically an experiment)</li>
-<li>I plan to use it to try to make benchmarks with once Test2::Harness rework is done.</li>
-</ul>
-</li>
-</ul>
-<p><a href="/pts2026/user/12494">Shawn Sorichetti (&lrm;hide&lrm;)</a></p>
-<ul>
-<li>Migrated all MetaCPAN secrets from SealedSecrets to External Secrets Operator backed by 1Password, eliminating per-cluster encrypted-blob duplication and removing secrets (even encrypted ones) from the git repo entirely</li>
-<li>Migrated every SealedSecret across the platform: cert-manager (Cloudflare DNS), ArgoCD (GitHub OAuth), loki, kube-prometheus, kube-thanos, and application secrets for web, api, test-smoke, and backpan-syncer</li>
-<li>Refactored ExternalSecrets from environments/prod/ into each app's base/ with namespace injection via Kustomize overlays, verified byte-identical kustomize build output before and after</li>
-<li>Switched ArgoCD repo access to GitHub App authentication after the OAuth secret transition</li>
-<li>Stood up a full parallel production stack (prod-hz) on Hetzner/CloudFleet running all seven MetaCPAN apps as a blue/green shadow of the DigitalOcean cluster - launched without SealedSecrets ever being deployed to it</li>
-<li>Built per-app environments/prod-hz/ Kustomize overlays plus separate ArgoCD AppProject and Application definitions targeting the hz cluster</li>
-<li>Installed the platform layer via a vendored Helm pattern (Makefile + values.yaml + checked-in vendor/) for ArgoCD, Hetzner CSI driver, CloudNative PG operator, and the CloudFleet node autoprovisioner - making installs reproducible without runtime internet pulls</li>
-<li>Wrote a Python script to query Datadog for P95 CPU and memory across all workloads and generate tuned resource requests, so the hz cluster launched with data-driven sizing instead of guesses; documented the methodology in scripts/README.md</li>
-<li>Pinned all hz workloads to Germany via nodeAffinity on topology.kubernetes.io/region (fsn1, nbg1), aligned with the CloudFleet NodePool restriction</li>
-<li>Added topologySpreadConstraints to web for even pod distribution across German availability zones; pinned backpan-syncer, grep, and test-smoke specifically to Frankfurt for storage locality</li>
-<li>Added PodDisruptionBudgets (maxUnavailable: 1) to web and web-search in the base, guaranteeing at least two pods serve traffic during voluntary disruptions in any cluster</li>
-<li>Set ServerSideDiff as the cluster-wide ArgoCD default, eliminating spurious diffs caused by ESO operator-injected fields</li>
-<li>Added ignoreDifferences rules covering PVC post-binding fields, eight ESO webhook-injected fields on ExternalSecret, Karpenter NodePool CRD defaults, and DatadogAgent operator-version fields - fixing perpetual OutOfSync states across both clusters</li>
-<li>Replaced the hardcoded overlay list in the validate-manifests CI workflow with find-based autodiscovery, picking up six previously unvalidated overlays and removing three stale ones</li>
-<li>Removed the legacy self-hosted monitoring stack (loki, kube-prometheus, kube-thanos, vector-agent) from the repository, completing the migration to Datadog and unblocking CI</li>
-<li>Updated the set-image automation workflow to update both prod and prod-hz in the same commit, preventing immediate post-launch drift between clusters</li>
-</ul>
-<p><a href="/pts2026/user/1823">Olaf Alders (&lrm;oalders&lrm;)</a></p>
-<ul>
-<li>The bulk of my time was spent working with Salve on a significant funding proposal for CPAN security work</li>
-<li>Merged some pull requests for perlimports and released a new version to CPAN</li>
-<li>Merged some code I had written to add a new MetaCPAN API endpoint:  /download_url/distribution/{distribution}</li>
-<li>Looked into adding GFM (GitHub Flavored Markdown) support to MetaCPAN. I have a proof of concept in place and discussed it with <a href="/pts2026/user/5256">Graham Knop (&lrm;haarg&lrm;)</a></li>
-<li>Recorded 2.5 podcast episodes of The Underbar with BooK</li>
-</ul>
-<p><a href="/pts2026/user/11124">Karl Williamson</a></p>
-<ul>
-<li>Got past a sticking point to releasing the next version of Devel::PPPort</li>
-<li>Gave a talk on the new API in 5.44 for XS code to use in handling UTF-8.</li>
-<li>Attended talk by <a href="/pts2026/user/6354">Paul Evans (&lrm;LeoNerd&lrm;)</a> on classes and roles</li>
-<li><a href="/pts2026/user/268">H.Merijn Brand (&lrm;Tux&lrm;)</a> clarified for me an underdocumented Configure behavior, which will lead to fixing a bug.</li>
-<li>With <a href="/pts2026/user/5015">Leon Timmermans (&lrm;leont&lrm;)</a>'s help, came up with a proposal for replacing PERL_NO_SHORT_NAMES (which has been broken for many releases) with new functionality that achieves the same aim, but signficantly easier to use.</li>
-<li>Tried to raise awareness of Unicode security issues</li>
-<li>Many many useful discussions</li>
-<li>Met many people whom I had long hoped to meet</li>
-<li>Was interviewd by <a href="/pts2026/user/1">Philippe Bruhat (&lrm;BooK&lrm;)</a> and <a href="/pts2026/user/1823">Olaf Alders (&lrm;oalders&lrm;)</a></li>
-</ul>
 
 [% END %]
 
